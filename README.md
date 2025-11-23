@@ -4,31 +4,6 @@ A comprehensive guide and reference implementation of a Jenkins CI/CD pipeline. 
 
 ---
 
-## **📌 Features**
-
-- Jenkins Declarative and Scripted Pipeline examples  
-- Automated build, test, and deployment stages  
-- Integration with GitHub Webhooks  
-- Docker-based build and deployment workflow  
-- Environment-based deployment (DEV / UAT / PROD)  
-- Parallel stages & shared libraries  
-- Best practices for pipeline optimization  
-- Jenkins & agent setup guide  
-
-jenkins-cicd-pipeline-guide/
-│── Jenkinsfile                  # Sample pipeline (Declarative)
-│── Jenkinsfile.scripted         # Sample pipeline (Scripted)
-│── ci-cd/                       # CI/CD-related scripts & configs
-│   ├── docker-build.sh
-│   ├── unit-tests.sh
-│   └── deploy.sh
-│── docs/
-│   ├── jenkins-setup.md         # Installing & configuring Jenkins
-│   ├── pipeline-explained.md    # Stage-by-stage pipeline explanation
-│   └── troubleshooting.md       # Common issues & fixes
-│── app/                         # Example application (optional)
-│── README.md
-
 ## **🚀 CI/CD Workflow Overview**
 
 ### **1. Code Commit**
