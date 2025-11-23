@@ -49,3 +49,18 @@ GitHub sends a webhook to Jenkins.
 ### **4. Notifications**
 Slack/Email notifications for pipeline status (optional).
 
+---
+
+## **📘 Getting Started**
+
+### **1. Install Jenkins**
+Follow the detailed guide in:  
+`docs/jenkins-setup.md`
+
+### **2. Create a New Pipeline Job**
+- Choose **Pipeline**
+- Connect **GitHub repository**
+- Add credentials if required
+
+### **3. Add Webhook in GitHub**
+Add a new webhook pointing to:
